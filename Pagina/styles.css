@@ -1,0 +1,117 @@
+
+body{
+background-image: url("./img/fondo.jpg");
+background-size: cover;
+
+
+
+}
+nav {
+    background-color: #1E1E1E;
+    overflow: hidden;
+   
+  }
+  
+  nav ul {
+    margin: 0;
+    margin-right: 50px ;
+    margin-left: 50px ;
+    padding: 0 ;
+
+    list-style: none;
+    text-align: left;
+    color:whitesmoke
+  }
+  
+  nav li {
+    display: inline-block;
+    margin: 0 25px 0;
+   
+  }
+  
+  nav li:first-child {
+    float: left;
+  }
+  
+  nav li:not(:first-child) {
+    float: right;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    color: #f2f2f2f2;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: normal;
+    
+}
+  
+  nav a:hover {
+    background-color: rgb(59, 58, 58);
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+  .profile-container {
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .profile-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+  }
+  
+  .profile-name {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .profile-line {
+    width: 30%;
+    height: 2px;
+    background-color: black;
+    border: none;
+    margin: 10px 0;
+  }
+  
+  .profile-icons {
+    width: 200px;
+    display: flex;
+    justify-content:space-around;}
+
+  
+  .profile-icons img {
+    width: 50px;
+    height: 50px;
+}
+    
+  
+ .ab, .ac{
+    border: none;
+}
